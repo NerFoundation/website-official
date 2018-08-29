@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 32" style="enable-background:new 0 0 40 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:url(#SVGID_2_);}
+	.st3{fill:#231F20;}
+	.st4{font-family:'Athelas-Regular';}
+	.st5{font-size:3.1257px;}
+</style>
+<title>wp</title>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="9.2938" y1="-6885.4312" x2="28.7187" y2="-6904.8564" gradientTransform="matrix(1 0 0 -1 0 -6878)">
+		<stop  offset="0" style="stop-color:#5CC6D2"/>
+		<stop  offset="1" style="stop-color:#17479D"/>
+	</linearGradient>
+	<path class="st0" d="M29.2,10.2v15.5c0,0.9-0.7,1.6-1.6,1.6l0,0H12.7c-0.9,0-1.6-0.7-1.6-1.6l0,0v-2.6h15.6
+		c0.3-0.1,0.6-0.3,0.6-0.7v-3c0-0.3-0.3-0.6-0.6-0.6l0,0H11.1V6.3c0-0.9,0.7-1.6,1.6-1.6l0,0h9.8L29.2,10.2z"/>
+	<path class="st1" d="M27.3,19.4v3c0,0.4-0.3,0.6-0.6,0.7H11.1v-4.3h15.6C27,18.8,27.3,19.1,27.3,19.4z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="25.85" y1="-6888.2358" x2="25.85" y2="-6882.7002" gradientTransform="matrix(1 0 0 -1 0 -6878)">
+		<stop  offset="0" style="stop-color:#B1DED5"/>
+		<stop  offset="1" style="stop-color:#1760B2"/>
+	</linearGradient>
+	<path class="st2" d="M29.2,10.2h-5.1c-0.9,0-1.6-0.7-1.6-1.6l0,0V4.7L29.2,10.2z"/>
+	<text transform="matrix(1.1538 0 0 1 12.0596 21.9367)" class="st3 st4 st5">KOREAN</text>
+</g>
+</svg>
