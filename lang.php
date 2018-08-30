@@ -1,5 +1,15 @@
 <?php
 return [
+    "socials" => [
+        "twitter" => "https://twitter.com/NerFoundation",
+        "tele_channel" => "https://t.me/NervesAnnouncement",
+        "tele_en" => "https://t.me/NervesGlobal",
+        "tele_kr" => "https://t.me/NervesKorea",
+        "tele_bot" => "https://t.me/Nerves_air_bot",
+        "reddit" => "https://www.reddit.com/user/NerFoundation",
+        "medium" => "https://medium.com/nerves-foundation",
+        "github" => "https://github.com/NerFoundation",
+    ],
     "lang" => [
         "en" => 0,
         "kr" => 1,

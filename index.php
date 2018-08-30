@@ -1,5 +1,6 @@
 <?php
 $langSource = require("lang.php");
+$socials = $langSource["socials"];
 $lang = $_GET['lang'];
 if ($lang == "") {
     if (!isset($_COOKIE["lang"])) {
@@ -155,16 +156,16 @@ $ver = "3.0";
                                    href="#wp"><?= $langSource["header"]["white-paper"][$position] ?></a>
 
                                 <a class="custom-btn custom-btn--medium custom-btn--style-4" style="margin-top: 20px;"
-                                   href="https://t.me/Nerves_Airdrop_Bot"><?= $langSource["header"]["join-airdrop"][$position] ?></a>
+                                   href="<?= $socials["tele_bot"] ?>"><?= $langSource["header"]["join-airdrop"][$position] ?></a>
                             </p>
                             <div class="social-btns">
-                                <a class="fa fa-twitter" href="https://twitter.com/NerFoundation"></a>
-                                <a class="fa fa-paper-plane-o" href="https://t.me/NervesAnnouncement"></a>
-                                <a class="fa fa-paper-plane" href="https://t.me/NervesGlobal"></a>
-                                <a class="fa fa-telegram" href="https://t.me/NervesKorea"></a>
-                                <a class="fa fa-reddit" href="https://www.reddit.com/user/NerFoundation"></a>
-                                <a class="fa fa-medium" href="https://medium.com/nerves-foundation"></a>
-                                <a class="fa fa-github" href="https://github.com/NerFoundation"></a>
+                                <a class="fa fa-twitter" href="<?= $socials["twitter"] ?>"></a>
+                                <a class="fa fa-paper-plane-o" href="<?= $socials["tele_channel"] ?>"></a>
+                                <a class="fa fa-paper-plane" href="<?= $socials["tele_en"] ?>"></a>
+                                <a class="fa fa-telegram" href="<?= $socials["tele_kr"] ?>"></a>
+                                <a class="fa fa-reddit" href="<?= $socials["reddit"] ?>"></a>
+                                <a class="fa fa-medium" href="<?= $socials["medium"] ?>"></a>
+                                <a class="fa fa-github" href="<?= $socials["github"] ?>"></a>
                             </div>
                         </div>
                     </div>
@@ -181,8 +182,6 @@ $ver = "3.0";
 						gl_PointSize = 3.0;
 						gl_Position = projectionMatrix * mvPosition;
 					}
-
-
                 </script>
                 <script type="x-shader/x-fragment" id="wrapFragmentShader">
 					uniform sampler2D texture;
@@ -196,8 +195,6 @@ $ver = "3.0";
 						vec4 color = dotColor * textureColor;
 						gl_FragColor = color;
 					}
-
-
                 </script>
 
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/91/three.min.js?ver=<?= $ver ?>"></script>
@@ -648,7 +645,7 @@ $ver = "3.0";
                         </table>
 
                         <a class="custom-btn custom-btn--medium custom-btn--style-1"
-                           href="https://t.me/Nerves_Airdrop_Bot"><?= $langSource["nerves-blockchain"]["button"]["join-airdrop"][$position] ?></a>
+                           href="<?= $socials["tele_bot"] ?>"><?= $langSource["nerves-blockchain"]["button"]["join-airdrop"][$position] ?></a>
                     </div>
                 </div>
 
@@ -1028,13 +1025,13 @@ $ver = "3.0";
                     </address>
 
                     <div class="social-btns">
-                        <a class="fa fa-twitter" href="https://twitter.com/NerFoundation"></a>
-                        <a class="fa fa-paper-plane-o" href="https://t.me/NervesAnnouncement"></a>
-                        <a class="fa fa-paper-plane" href="https://t.me/NervesGlobal"></a>
-                        <a class="fa fa-telegram" href="https://t.me/NervesKorea"></a>
-                        <a class="fa fa-reddit" href="https://www.reddit.com/user/NerFoundation"></a>
-                        <a class="fa fa-medium" href="https://medium.com/nerves-foundation"></a>
-                        <a class="fa fa-github" href="https://github.com/NerFoundation"></a>
+                        <a class="fa fa-twitter" href="<?= $socials["twitter"] ?>"></a>
+                        <a class="fa fa-paper-plane-o" href="<?= $socials["tele_channel"] ?>"></a>
+                        <a class="fa fa-paper-plane" href="<?= $socials["tele_en"] ?>"></a>
+                        <a class="fa fa-telegram" href="<?= $socials["tele_kr"] ?>"></a>
+                        <a class="fa fa-reddit" href="<?= $socials["reddit"] ?>"></a>
+                        <a class="fa fa-medium" href="<?= $socials["medium"] ?>"></a>
+                        <a class="fa fa-github" href="<?= $socials["github"] ?>"></a>
                     </div>
                 </div>
             </div>
