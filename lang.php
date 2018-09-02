@@ -140,9 +140,33 @@ return [
             "FACTS OF TOKEN",
             "토큰에 관한 사실",
         ],
+        "title_1" => [
+            "Token Allocation",
+            "토큰 할당",
+        ],
+        "title_2" => [
+            "Token Information",
+            "토큰 정보",
+        ],
         "amount" => [
-            "Amount of tokens 21,000,000,000:",
-            "총 토큰 21,000,000,000:",
+            "Amount of tokens:",
+            "총 토큰:",
+        ],
+        "circulating" => [
+            "Circulating Supply:",
+            "순환 공급:",
+        ],
+        "total" => [
+            "Total Supply:",
+            "총 공급량:",
+        ],
+        "max" => [
+            "Max supply:",
+            "최대 공급량:",
+        ],
+        "smartcontract" => [
+            "Smart Contract:",
+            "스마트 계약:",
         ],
         "percent_1" => [
             "Team & Advisor",

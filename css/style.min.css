@@ -23,6 +23,13 @@
     display: inline-block
 }
 
+#btn-play-video a:link {
+    text-decoration: none;
+}
+#btn-play-video a {
+    color: #f0f0f0;
+}
+
 .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video, .embed-responsive-item, .events .__item .__image img, .gallery .__item .__content, .gallery .__item .__image img, .gallery .__item .__link, .goods .__item .__image a, .posts .__item .__image img, .projects .__item .__image img, .tab-container .tab-content__item {
     position: absolute;
     top: 0;
@@ -6057,7 +6064,8 @@ label {
     line-height: 1;
     font-size: 2rem;
     white-space: nowrap;
-    color: #fff
+    color: #fff;
+    padding-bottom: 80px;
 }
 
 .__video .__play-btn {

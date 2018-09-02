@@ -11,7 +11,7 @@ if ($lang == "") {
 }
 setcookie("lang", $lang, time() + (10 * 365 * 24 * 60 * 60));
 $position = $langSource['lang'][$lang];
-$ver = "3.1";
+$ver = "3.2";
 ?>
 
 <!DOCTYPE html>
@@ -335,25 +335,23 @@ $ver = "3.1";
 
                 <div class="col col--md-6 col--lg-7">
                     <p data-aos="fade-up" data-aos-offset="100">
-                        <?= $langSource["what-nerves"]["p6"][$position] ?>
+                        <?= $langSource["what-nerves"]["p"][$position] ?>
                     </p>
                 </div>
             </div>
 
             <!-- start video -->
             <div class="video-container" data-aos="fade-up">
-                <img class="img-responsive center-block lazy" src="img/video_bg.png" data-src="img/video_bg.png?ver=<?= $ver ?>"
+                <img class="img-responsive center-block lazy" src="img/video_bg.png?ver=<?= $ver ?>" data-src="img/video_bg.png?ver=<?= $ver ?>"
                      alt=""/>
 
-                <div class="__video" style="max-width: 300px;">
+                <div class="__video">
                     <div class="__wrp">
                         <div class="embed-responsive">
                             <div class="__bg embed-responsive-item">
-                                <div class="__btn_wrp">
-                                    <a class="__play-btn  circled" data-fancybox
-                                       href="#"></a>
-
-                                    <!--                                    <span class="__desc" style="color: #333">Video Presentation</span>-->
+                                <div class="__btn_wrp" id="btn-play-video">
+                                    <a class="fa fa-play fa-2x" data-fancybox
+                                       href="<?= $socials["youtube"] ?>"></a>
                                 </div>
                             </div>
                         </div>
@@ -502,7 +500,7 @@ $ver = "3.1";
                         <h5 class="__subtitle"><?= $langSource["chart"]["section"][$position] ?></h5>
                     </div>
 
-                    <h5><?= $langSource["chart"]["amount"][$position] ?></h5>
+                    <h5><?= $langSource["chart"]["title_1"][$position] ?></h5>
 
                     <div class="token-label team-token"></div>
                     25% <?= $langSource["chart"]["percent_1"][$position] ?> <br>
@@ -518,6 +516,14 @@ $ver = "3.1";
                     20% <?= $langSource["chart"]["percent_6"][$position] ?> <br>
                     <div class="token-label reward-token"></div>
                     5% <?= $langSource["chart"]["percent_7"][$position] ?> <br>
+
+                    <div style="padding-top: 20px">
+                        <h5><?= $langSource["chart"]["title_2"][$position] ?></h5>
+                        <?= $langSource["chart"]["circulating"][$position] ?> <span style="text-decoration: underline">4,800,000,000 NER</span> <br>
+                        <?= $langSource["chart"]["total"][$position] ?> 10,000,000,000 NER<br>
+                        <?= $langSource["chart"]["max"][$position] ?> 21,000,000,000 NER<br>
+                        <?= $langSource["chart"]["smartcontract"][$position] ?> 0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6<br>
+                    </div>
 
                 </div>
 
@@ -615,7 +621,7 @@ $ver = "3.1";
             </div>
 
             <div class="row">
-                <div class="col col--md-5 col--lg-4">
+                <div class="col col--md-4 col--lg-4">
                     <div data-aos="fade-right" data-aos-offset="200">
                         <table class="col-MB-35" style="line-height: 2;">
                             <tr>
@@ -633,30 +639,30 @@ $ver = "3.1";
                                 <td>NER</td>
                             </tr>
 
-                            <tr>
-                                <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_4"][$position] ?></h5></td>
-                                <td>5,000,000,000 NER</td>
-                            </tr>
-
-                            <tr>
-                                <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_5"][$position] ?></h5></td>
-                                <td>7,000,000,000 NER</td>
-                            </tr>
-
-                            <tr>
-                                <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_6"][$position] ?></h5></td>
-                                <td>21,000,000,000 NER</td>
-                            </tr>
+<!--                            <tr>-->
+<!--                                <td><h5>--><?//= $langSource["nerves-blockchain"]["token"]["label_4"][$position] ?><!--</h5></td>-->
+<!--                                <td>4,800,000,000 NER</td>-->
+<!--                            </tr>-->
+<!---->
+<!--                            <tr>-->
+<!--                                <td><h5>--><?//= $langSource["nerves-blockchain"]["token"]["label_5"][$position] ?><!--</h5></td>-->
+<!--                                <td>7,000,000,000 NER</td>-->
+<!--                            </tr>-->
+<!---->
+<!--                            <tr>-->
+<!--                                <td><h5>--><?//= $langSource["nerves-blockchain"]["token"]["label_6"][$position] ?><!--</h5></td>-->
+<!--                                <td>21,000,000,000 NER</td>-->
+<!--                            </tr>-->
 
                             <tr>
                                 <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_7"][$position] ?></h5></td>
                                 <td><?= $langSource["nerves-blockchain"]["token"]["value_5"][$position] ?></td>
                             </tr>
 
-                            <tr>
-                                <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_8"][$position] ?></h5></td>
-                                <td><a href="https://etherscan.io/token/0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6">0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6</a></td>
-                            </tr>
+<!--                            <tr>-->
+<!--                                <td><h5>--><?//= $langSource["nerves-blockchain"]["token"]["label_8"][$position] ?><!--</h5></td>-->
+<!--                                <td><a href="https://etherscan.io/token/0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6">0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6</a></td>-->
+<!--                            </tr>-->
                         </table>
 
                         <a class="custom-btn custom-btn--medium custom-btn--style-1"
@@ -666,7 +672,7 @@ $ver = "3.1";
 
                 <div class="col hide--md col-MB-40"></div>
 
-                <div class="col col--md-7 col--lg-7 col--lg-offset-1">
+                <div class="col col--md-7 col--lg-7 col--lg-offset-1" style="text-align: justify;">
                     <div data-aos="fade-left" data-aos-offset="100">
                         <h3><?= $langSource["nerves-blockchain"]["p1"][$position] ?></h3>
 
