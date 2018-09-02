@@ -9,6 +9,7 @@ return [
         "reddit" => "https://www.reddit.com/user/NerFoundation",
         "medium" => "https://medium.com/nerves-foundation",
         "github" => "https://github.com/NerFoundation",
+        "youtube" => "https://www.youtube.com/watch?v=GZ2iuuIGm8A",
     ],
     "lang" => [
         "en" => 0,
@@ -351,12 +352,24 @@ return [
                 "기호:",
             ],
             "label_4" => [
+                "Circulating Supply:",
+                "순환 공급:",
+            ],
+            "label_5" => [
                 "Total Supply:",
                 "총 공급량:",
             ],
-            "label_5" => [
+            "label_6" => [
+                "Max supply:",
+                "최대 공급량:",
+            ],
+            "label_7" => [
                 "Project Vision:",
                 "프로젝트 비전:",
+            ],
+            "label_8" => [
+                "Smart Contract:",
+                "스마트 계약:",
             ],
             "value_5" => [
                 "Blockchain for every chains",

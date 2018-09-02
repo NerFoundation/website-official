@@ -342,7 +342,7 @@ $ver = "3.0";
 
             <!-- start video -->
             <div class="video-container" data-aos="fade-up">
-                <img class="img-responsive center-block lazy" src="img/blank.gif" data-src="img/video_bg_2.png?ver=<?= $ver ?>"
+                <img class="img-responsive center-block lazy" src="img/video_bg.png" data-src="img/video_bg.png?ver=<?= $ver ?>"
                      alt=""/>
 
                 <div class="__video" style="max-width: 300px;">
@@ -635,12 +635,27 @@ $ver = "3.0";
 
                             <tr>
                                 <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_4"][$position] ?></h5></td>
-                                <td>21,000,000,000 NER</td>
+                                <td>5,000,000,000 NER</td>
                             </tr>
 
                             <tr>
                                 <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_5"][$position] ?></h5></td>
+                                <td>7,000,000,000 NER</td>
+                            </tr>
+
+                            <tr>
+                                <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_6"][$position] ?></h5></td>
+                                <td>21,000,000,000 NER</td>
+                            </tr>
+
+                            <tr>
+                                <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_7"][$position] ?></h5></td>
                                 <td><?= $langSource["nerves-blockchain"]["token"]["value_5"][$position] ?></td>
+                            </tr>
+
+                            <tr>
+                                <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_8"][$position] ?></h5></td>
+                                <td><a href="https://etherscan.io/token/0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6">0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6</a></td>
                             </tr>
                         </table>
 
@@ -737,7 +752,7 @@ $ver = "3.0";
                                          data-src="img/team_img/3.png?ver=<?= $ver ?>" width="110" height="110" alt=""/>
 
                                     <div class="social-btns">
-                                        <a href="#" class="fa-stack fa-lg">
+                                        <a href="https://www.linkedin.com/in/joe-shzang-70572416b/" class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x linkedin-icon"></i>
                                             <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                                         </a>
@@ -761,7 +776,7 @@ $ver = "3.0";
                                          data-src="img/team_img/2.png?ver=<?= $ver ?>" width="110" height="110" alt=""/>
 
                                     <div class="social-btns">
-                                        <a href="#" class="fa-stack fa-lg">
+                                        <a href="https://www.linkedin.com/in/yuan-zhang-27594216b/" class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x linkedin-icon"></i>
                                             <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                                         </a>
@@ -809,7 +824,7 @@ $ver = "3.0";
                                          data-src="img/team_img/1.png?ver=<?= $ver ?>" width="110" height="110" alt=""/>
 
                                     <div class="social-btns">
-                                        <a href="#" class="fa-stack fa-lg">
+                                        <a href="https://www.linkedin.com/in/harshal-vinay-kulkar-7677a116b/" class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x linkedin-icon"></i>
                                             <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                                         </a>
@@ -832,7 +847,7 @@ $ver = "3.0";
                                     <img class="img-responsive circled lazy" src="img/blank.gif"
                                          data-src="img/team_img/5.png?ver=<?= $ver ?>" width="110" height="110" alt=""/>
                                     <div class="social-btns">
-                                        <a href="#" class="fa-stack fa-lg">
+                                        <a href="https://www.linkedin.com/in/toby-shepherd-bb679a16b" class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x linkedin-icon"></i>
                                             <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                                         </a>
