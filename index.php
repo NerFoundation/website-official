@@ -11,7 +11,7 @@ if ($lang == "") {
 }
 setcookie("lang", $lang, time() + (10 * 365 * 24 * 60 * 60));
 $position = $langSource['lang'][$lang];
-$ver = "3.0";
+$ver = "3.1";
 ?>
 
 <!DOCTYPE html>
