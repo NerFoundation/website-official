@@ -155,8 +155,8 @@ $ver = "3.2";
                                 <a class="custom-btn custom-btn--medium custom-btn--style-2" style="margin-top: 20px;"
                                    href="#wp"><?= $langSource["header"]["white-paper"][$position] ?></a>
 
-                                <a class="custom-btn custom-btn--medium custom-btn--style-4" style="margin-top: 20px;"
-                                   href="<?= $socials["tele_bot"] ?>"><?= $langSource["header"]["join-airdrop"][$position] ?></a>
+                                <a class="custom-btn custom-btn--medium custom-btn--style-4" style="margin-top: 20px;" data-fancybox
+                                   href="<?= $socials["youtube"] ?>"><?= $langSource["header"]["watch-video"][$position] ?></a>
                             </p>
                             <div class="social-btns">
                                 <a class="fa fa-twitter" href="<?= $socials["twitter"] ?>"></a>
@@ -638,35 +638,14 @@ $ver = "3.2";
                                 <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_3"][$position] ?></h5></td>
                                 <td>NER</td>
                             </tr>
-
-<!--                            <tr>-->
-<!--                                <td><h5>--><?//= $langSource["nerves-blockchain"]["token"]["label_4"][$position] ?><!--</h5></td>-->
-<!--                                <td>4,800,000,000 NER</td>-->
-<!--                            </tr>-->
-<!---->
-<!--                            <tr>-->
-<!--                                <td><h5>--><?//= $langSource["nerves-blockchain"]["token"]["label_5"][$position] ?><!--</h5></td>-->
-<!--                                <td>7,000,000,000 NER</td>-->
-<!--                            </tr>-->
-<!---->
-<!--                            <tr>-->
-<!--                                <td><h5>--><?//= $langSource["nerves-blockchain"]["token"]["label_6"][$position] ?><!--</h5></td>-->
-<!--                                <td>21,000,000,000 NER</td>-->
-<!--                            </tr>-->
-
                             <tr>
                                 <td><h5><?= $langSource["nerves-blockchain"]["token"]["label_7"][$position] ?></h5></td>
                                 <td><?= $langSource["nerves-blockchain"]["token"]["value_5"][$position] ?></td>
                             </tr>
-
-<!--                            <tr>-->
-<!--                                <td><h5>--><?//= $langSource["nerves-blockchain"]["token"]["label_8"][$position] ?><!--</h5></td>-->
-<!--                                <td><a href="https://etherscan.io/token/0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6">0xee5dfb5ddd54ea2fb93b796a8a1b83c3fe38e0e6</a></td>-->
-<!--                            </tr>-->
                         </table>
 
-                        <a class="custom-btn custom-btn--medium custom-btn--style-1"
-                           href="<?= $socials["tele_bot"] ?>"><?= $langSource["nerves-blockchain"]["button"]["join-airdrop"][$position] ?></a>
+<!--                        <a class="custom-btn custom-btn--medium custom-btn--style-1"-->
+<!--                           href="--><?//= $socials["tele_bot"] ?><!--">--><?//= $langSource["nerves-blockchain"]["button"]["join-airdrop"][$position] ?><!--</a>-->
                     </div>
                 </div>
 

@@ -62,6 +62,10 @@ return [
             "Join Airdrop",
             "에어드롭에 참여하기",
         ],
+        "watch-video" => [
+            "Watch Video",
+            "비디오를보다",
+        ],
     ],
     "what-nerves" => [
         "section" => [
